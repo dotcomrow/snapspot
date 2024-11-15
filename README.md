@@ -1,2 +1,3 @@
-# pulse-ui
-pulse-ui project
+# snapspot-ui
+
+deploy
