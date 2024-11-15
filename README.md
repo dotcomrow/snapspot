@@ -1,1 +1,3 @@
 # snapspot-ui
+
+deploy
