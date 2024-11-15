@@ -63,7 +63,7 @@ resource "cloudflare_pages_project" "app" {
 
         service_binding {
           name = "GRAPHQL"
-          service = "pulse-graphql-prod"
+          service = "snapspot-graphql-prod"
           environment = "production"
         }
     }
@@ -92,7 +92,7 @@ resource "cloudflare_pages_project" "app" {
 
         service_binding {
           name = "GRAPHQL"
-          service = "pulse-graphql-dev"
+          service = "snapspot-graphql-dev"
           environment = "production"
         }
     }
