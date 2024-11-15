@@ -55,11 +55,11 @@ resource "cloudflare_pages_project" "app" {
           CACHE = data.local_file.load_d1_pulse_ui_prod_cache_id.content
         }
 
-        service_binding {
-          name = "API"
-          service = "api-gateway-prod"
-          environment = "production"
-        }
+        # service_binding {
+        #   name = "API"
+        #   service = "api-gateway-prod"
+        #   environment = "production"
+        # }
 
         service_binding {
           name = "GRAPHQL"
@@ -84,11 +84,11 @@ resource "cloudflare_pages_project" "app" {
           CACHE = data.local_file.load_d1_pulse_ui_dev_cache_id.content
         }
 
-        service_binding {
-          name = "API"
-          service = "api-gateway-dev"
-          environment = "production"
-        }
+        # service_binding {
+        #   name = "API"
+        #   service = "api-gateway-dev"
+        #   environment = "production"
+        # }
 
         service_binding {
           name = "GRAPHQL"
