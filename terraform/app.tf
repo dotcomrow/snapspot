@@ -52,7 +52,7 @@ resource "cloudflare_pages_project" "app" {
         }
 
         d1_databases = {
-          CACHE = data.local_file.load_d1_pulse_ui_prod_cache_id.content
+          CACHE = data.local_file.load_d1_snapspot_prod_cache_id.content
         }
 
         # service_binding {
@@ -81,7 +81,7 @@ resource "cloudflare_pages_project" "app" {
         }
 
         d1_databases = {
-          CACHE = data.local_file.load_d1_pulse_ui_dev_cache_id.content
+          CACHE = data.local_file.load_d1_snapspot_dev_cache_id.content
         }
 
         # service_binding {
