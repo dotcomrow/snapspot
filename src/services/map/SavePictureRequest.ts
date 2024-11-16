@@ -56,7 +56,7 @@ export default async function savePictureRequests(
         return res.json();
     } catch (error) {
         // calling remote when running locally
-        const res = await fetch("https://pulse-graphql.dev.suncoast.systems/graphql", {
+        const res = await fetch("https://snapspot-graphql.dev.suncoast.systems/graphql", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
