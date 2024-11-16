@@ -1,3 +1,3 @@
 # snapspot-ui
 
-snapspot project frontend
+snapspot frontend
