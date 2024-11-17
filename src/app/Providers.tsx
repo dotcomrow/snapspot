@@ -7,7 +7,7 @@ export function Providers({ children, headersList, token }: { children: React.Re
     return (
         <StoreProvider token={token}>
             <NextUIProvider>
-                <NextThemesProvider enableSystem={true} >
+                <NextThemesProvider attribute="class" enableSystem={true} >
                     <LocationProvider
                         headersList={headersList}
                     >
